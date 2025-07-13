@@ -183,9 +183,9 @@ const StudentDashboard: React.FC = () => {
 
       if (data.success) {
         showToast(data.message, 'success');
-        // Force refresh cart items to ensure UI updates
+        // Force refresh both cart items and menu items to reflect quantity changes
         await fetchCartItems();
-        // Real-time subscriptions will handle the UI updates
+        await fetchMenuItems();
       } else {
         showToast(data.error, 'error');
       }
@@ -212,10 +212,9 @@ const StudentDashboard: React.FC = () => {
 
       if (data.success) {
         showToast(data.message, 'success');
-        // Force refresh cart items and menu items
+        // Force refresh both cart items and menu items to reflect quantity changes
         await fetchCartItems();
         await fetchMenuItems();
-        // Real-time subscriptions will handle the UI updates
       } else {
         showToast(data.error, 'error');
       }
@@ -241,10 +240,9 @@ const StudentDashboard: React.FC = () => {
 
       if (data.success) {
         showToast(data.message, 'success');
-        // Force refresh cart items and menu items
+        // Force refresh both cart items and menu items to reflect quantity changes
         await fetchCartItems();
         await fetchMenuItems();
-        // Real-time subscriptions will handle the UI updates
       } else {
         showToast(data.error, 'error');
       }
