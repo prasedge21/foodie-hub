@@ -31,7 +31,7 @@ const Loading: React.FC = () => {
       <div className="text-center">
         <div className="w-16 h-16 modern-spinner rounded-full animate-spin mx-auto mb-6"></div>
         <div className="flex items-center justify-center space-x-3">
-          <img src="/site-icon.png" alt="Loading" className="w-6 h-6 rounded-lg" />
+          <Coffee className="w-6 h-6 text-orange-500" />
           <span className="text-xl font-medium text-gray-200">Loading Menu...</span>
         </div>
         <p className="text-gray-400 text-sm mt-2">Preparing your dining experience</p>
