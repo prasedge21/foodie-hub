@@ -331,7 +331,7 @@ const StudentDashboard: React.FC = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
                 <ChefHat className="w-6 h-6 text-white" />
               </div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white">FoodieHub</h1>
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white">ChummaOrder</h1>
             </div>
             
             <div className="flex items-center space-x-4">

@@ -37,8 +37,8 @@ const Header: React.FC<HeaderProps> = ({ title, showCart = false, cartCount = 0,
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
               </div>
               <div>
-                <span className="text-xl font-bold gradient-text tracking-wide">FoodieHub</span>
-                <div className="text-xs text-gray-600 dark:text-gray-400 font-medium">Premium Food Ordering</div>
+                <span className="text-xl font-bold gradient-text tracking-wide">ChummaOrder</span>
+                <div className="text-xs text-gray-600 dark:text-gray-400 font-medium">They queue. We cruise</div>
               </div>
             </div>
           </div>
